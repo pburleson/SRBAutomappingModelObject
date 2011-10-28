@@ -48,6 +48,9 @@ And create a convenience method for creating our model object from a NSDictionar
 
 That's it! we've updated our model object from the dictionary with ease.
 
+###  Updating a model object when the NSDictionary keys don't match our model object
+
+
 But what about a more complex case, where the source NSDictionary is a bit more complicated and the keys don't match?
 
 Let's try this out with a more complex NSDictionary:
@@ -73,6 +76,8 @@ Here's our mapping now:
 ```
 
 Good to go.
+
+###  Updating our model when more complex data conversions are needed
 
 Now, what about super complex types?  Like, nested NSArray's that themselves have model objects?  Or NSStrings that need to be converted to NSDates?  For that, we have formatter blocks which are invoked for each mapping to do our custom conversion.
 
