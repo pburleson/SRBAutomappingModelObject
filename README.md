@@ -87,6 +87,7 @@ Our dictionary:
 ``` objective-c
 NSDictionary *dict = [NSDictionary dictionaryWithObject: @"12-12-2015T12:20:10" forKey: @"stringDate"];
 @end
+```
 
 Our mapping would now look like:
 
