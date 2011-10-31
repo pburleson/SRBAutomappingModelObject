@@ -70,7 +70,7 @@ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.*/
 {
 	if( [self validatePropertyName: destKey] )
 	{
-		[self addMappingWithDestinationKey: destKey sourceKeyPath: [destKey copy]];
+		[self addMappingWithDestinationKey: destKey sourceKeyPath: destKey];
 	}
 }
 
